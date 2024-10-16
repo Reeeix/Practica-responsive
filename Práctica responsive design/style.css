@@ -1,0 +1,85 @@
+html {
+  background-color: black;
+}
+body {
+  color:rgb(138, 255, 51);
+}
+header, .content, .sidebar, .features, footer{
+  background-color: black;
+  border-color: rgb(138, 255, 51);
+  border-style:dashed;
+  border-width: 1.5px;
+  border-left: none;
+  border-right: none;
+}
+header {
+  position: fixed;
+  z-index: 6;
+  width: 100%;
+  height: fit-content;
+ 
+}
+.content {
+  top: 120px;
+  width: 100%;
+  padding-bottom: 20px;
+  position: relative;
+}
+ 
+.sidebar {
+  width: 150px;
+  padding: auto;
+  top:140px;
+  left: 1200px;
+  border-left: 1.5px rgb(138, 255, 51) dashed;
+  border-right: 1.5px rgb(138, 255, 51) dashed;
+  position: relative;
+}
+
+.sidebar > h3 {
+  position: relative;
+  left:25px;
+}
+
+.sidebar > li {
+  position: relative;
+  left:15px;
+}
+
+.features {
+  position: relative;
+  top: 170px;
+  padding-bottom:30px;
+}
+
+.features > h2 {
+  position:relative;
+  left:45%;
+}
+
+.feature > span {
+  position:relative;
+  left:50%;
+}
+
+.feature > p {
+  position: relative;
+  left:43%;
+}
+
+.feature > button {
+  position: relative;
+  left: 48.5%;
+}
+
+footer {
+  width: 100%;
+  position:fixed;
+  bottom:0;
+
+}
+
+footer > p {
+  
+  left: 45%;
+}
